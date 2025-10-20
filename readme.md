@@ -32,12 +32,12 @@ The goal is to develop an **end-to-end text classification pipeline** using **TF
 ## **2. Exploratory Data Analysis (EDA)**
 **Text Statistics:**  
 - Average complaint length: 20–50 words  
-- Histogram of word counts:  
-![Word Count Histogram](images/word_count_histogram.png)  
+- Histogram of word counts for each product:  
+![Word Count Histogram](word_count_histogram.png)  
 
 **Frequent Words Analysis:**  
 - Most common words visualized using a **wordcloud**:  
-![Wordcloud](images/wordcloud.png)
+![Wordcloud](wordcloud.png)
 
 **Insights:**  
 - Frequent terms include “incorrect information”, “account”, “payment”, “credit report”  
@@ -94,17 +94,17 @@ Steps performed on complaint text:
 | FFNN                  | 0.9725    | 0.9723    | 0.9725  | 0.9720   |
 
 **Performance Comparison:**  
-![Metrics Comparison](images/metrics_comparison.png)
+![Metrics Comparison](metrics_comparison.png)
 
 **Confusion Matrices:**  
 - Logistic Regression  
-![LR Confusion Matrix](images/cm_lr.png)  
+![LR Confusion Matrix](cm_lr.png)  
 - Multinomial NB  
-![NB Confusion Matrix](images/cm_nb.png)  
+![NB Confusion Matrix](cm_nb.png)  
 - Linear SVM  
-![SVM Confusion Matrix](images/cm_svm.png)  
+![SVM Confusion Matrix](cm_svm.png)  
 - FFNN  
-![FFNN Confusion Matrix](images/cm_ffnn.png)
+![FFNN Confusion Matrix](cm_ffnn.png)
 
 **Insights:**
 - FFNN achieves the **highest accuracy and F1-score (~97.25%)**  
