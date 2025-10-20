@@ -25,7 +25,7 @@ The goal is to develop an **end-to-end text classification pipeline** using **TF
   - Applied **downsampling** to better balance minority classes  
 
 **Class Distribution Visualization:**  
-![Class Distribution](images/class_distribution.png)
+![Class Distribution](class_distribution.png)
 
 ---
 
